@@ -1,0 +1,236 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello HomeController!
+{% endblock %}
+
+{% block body %}
+	<div class="container-fluid">
+		<div class="prestation text-center p-5 bg-dark text-white">
+			<div class="mt-5">
+				<h1 class="display-4 ">Lorem ipsum dolor sit amet consectetur</h1>
+				<p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+				<button type="button" class="btn btn-outline-success">Success</button>
+			</div>
+		</div>
+	</div>
+
+    <main>
+        <!-- Présentations -->
+        <div class="titre text-center mt-5">
+            <h3>PRESENTATIONS</h3>
+            <h1>Nos catégories</h1>
+        </div>
+
+		<div class="container mt-5">
+			<div class="row justify-content-center">
+
+				<div class="card col-md-6 col-lg-4 mb-4">
+					<div class='imgContainer'>
+						<img src="{{ asset('images/isolation.png') }}" class="card-img-top" alt="Card One Image">
+                        		<h2 class="card-title">isolation</h2>
+					</div>
+                    
+					<div class="card-body">
+				
+						<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eget velit tristique, sollicitudin leo viverra, suscipit neque. Aliquam ut facilisis urna, in pretium nibh. Morbi in leo in eros commodo volutpat ac sed dolor.</p>
+
+					</div>
+				</div>
+
+		<div class="card col-md-6 col-lg-4 mb-4">
+					<div class='imgContainer'>
+						<img src="{{ asset('images/menuiserie.jpg') }}" class="card-img-top" alt="Card One Image">
+                        		<h2 class="card-title">menuiserie</h2>
+					</div>
+                    
+					<div class="card-body">
+				
+						<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eget velit tristique, sollicitudin leo viverra, suscipit neque. Aliquam ut facilisis urna, in pretium nibh. Morbi in leo in eros commodo volutpat ac sed dolor.</p>
+
+					</div>
+				</div>
+
+				<div class="card col-md-6 col-lg-4 mb-4">
+					<div class='imgContainer'>
+						<img src="{{ asset('images/domotique.jpg') }}" class="card-img-top" alt="Card One Image">
+                        <h2 class="card-title">domotique</h2>
+					</div>
+					<div class="card-body">
+						
+						<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eget velit tristique, sollicitudin leo viverra, suscipit neque. Aliquam ut facilisis urna, in pretium nibh. Morbi in leo in eros commodo volutpat ac sed dolor.</p>
+
+					</div>
+				</div>
+
+				<div class="card col-md-6 col-lg-4 mb-4">
+					<div class='imgContainer'>
+					<img src="{{ asset('images/agencement.jpg') }}" class="card-img-top" alt="Card One Image">
+                    <h2 class="card-title">agencement</h2>
+					</div>
+					<div class="card-body">
+						
+						<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eget velit tristique, sollicitudin leo viverra, suscipit neque. Aliquam ut facilisis urna, in pretium nibh. Morbi in leo in eros commodo volutpat ac sed dolor.</p>
+
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+
+
+<section class=" container mt-5">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="propos-text">
+                <h3>A PROPOS</h3>
+                <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore, eveniet rerum. Amet necessitatibus totam recusandae quos nesciunt possim, qui, a explicabo aliquid reiciendis perspiciatis maxime.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore, eveniet rerum. Amet necessitatibus totam recusandae quos nesciunt possimus nisi nobis dolorem veniam nihil, qui, a explicabo aliquid reiciendis perspiciatis maxime.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore, eveniet rerum. Amet necessitatibus totam rlorem veniam nihil, qui, a explicabo aliquid reiciendis perspiciatis maxime.</p>
+                <p>Lorem ipsum dolor sit amet, consect necessitatibus totam recusandae quos nesciunt possimus nisi nobis dolorem veniam nihil, qui, a explicabo aliquid reiciendis perspiciatis maxime.</p>
+            </div>
+        </div>
+<div class="col-md-6">
+    <div class="hover09 bg-image hover-zoom">
+        <figure>
+            <img src="{{ asset('images/menuiserie.jpg') }}" class="w-100" alt="Card One Image">
+        </figure>
+        <figure>
+            <img src="{{ asset('images/menuiserie.jpg') }}" class="w-100" alt="Card One Image">
+        </figure>
+    </div>
+</div>
+    </div>
+</section>
+
+<div class="container pourquoi mt-5">
+    <div class="propos-text text-center">
+        <h3>POURQUOI</h3>
+        <h1>Lorem ipsum dolor sit amet ?</h1>
+    </div>
+
+
+    <div class="logo-slider">
+	<div class="logo-slide-track">
+		<div class="slide">
+			<img src="https://www.orangetechcollege.net/UserFiles/Servers/Server_86919/Image/Partners/4Rivers.png" alt="" />
+		</div>
+		<div class="slide">
+			<img src="https://www.orangetechcollege.net/UserFiles/Servers/Server_86919/Image/Partners/AVT.png" alt="" />
+		</div>
+		<div class="slide">
+			<img src="https://www.orangetechcollege.net/UserFiles/Servers/Server_86919/Image/Partners/CareerSource.png" alt="" />
+		</div>
+		<div class="slide">
+			<img src="https://www.orangetechcollege.net/UserFiles/Servers/Server_86919/Image/Partners/CFEC.png" alt="" />
+		</div>
+		<div class="slide">
+			<img src="https://www.orangetechcollege.net/UserFiles/Servers/Server_86919/Image/Partners/CityofOrlando.png" alt="" />
+		</div>
+		<div class="slide">
+			<img src="https://www.orangetechcollege.net/UserFiles/Servers/Server_86919/Image/Partners/CommunityCoordinatedCare.png" alt="" />
+		</div>
+		<div class="slide">
+			<img src="https://www.orangetechcollege.net/UserFiles/Servers/Server_86919/Image/Partners/DentalSociety.png" alt="" />
+		</div>
+		<div class="slide">
+			<img src="https://www.orangetechcollege.net/UserFiles/Servers/Server_86919/Image/Partners/DrPhillips.png" alt="" />
+		</div>
+		<div class="slide">
+			<img src="https://www.orangetechcollege.net/UserFiles/Servers/Server_86919/Image/Partners/Ferran.png" alt="" />
+		</div>
+		<div class="slide">
+			<img src="https://www.orangetechcollege.net/UserFiles/Servers/Server_86919/Image/Partners/FloridaADA.png" alt="" />
+		</div>
+		<div class="slide">
+			<img src="https://www.orangetechcollege.net/UserFiles/Servers/Server_86919/Image/Partners/FloridaHospital.png" alt="" />
+		</div>
+		<div class="slide">
+			<img src="https://www.orangetechcollege.net/UserFiles/Servers/Server_86919/Image/Partners/Goodwill.png" alt="" />
+		</div>
+		<div class="slide">
+			<img src="https://www.orangetechcollege.net/UserFiles/Servers/Server_86919/Image/Partners/HarvardJolly.png" alt="" />
+		</div>
+		<div class="slide">
+			<img src="https://www.orangetechcollege.net/UserFiles/Servers/Server_86919/Image/Partners/HiltonOrlando.png" alt="" />
+		</div>
+		<div class="slide">
+			<img src="https://www.orangetechcollege.net/UserFiles/Servers/Server_86919/Image/Partners/IndraSystems.png" alt="" />
+		</div>   
+		<div class="slide">
+			<img src="https://www.orangetechcollege.net/UserFiles/Servers/Server_86919/Image/Partners/JobsPartnership.png" alt="" />
+		</div>
+		<div class="slide">
+			<img src="https://www.orangetechcollege.net/UserFiles/Servers/Server_86919/Image/Partners/Kenworth.png" alt="" />
+		</div>
+		<div class="slide">
+			<img src="https://www.orangetechcollege.net/UserFiles/Servers/Server_86919/Image/Partners/L3.png" alt="" />
+		</div>
+		<div class="slide">
+			<img src="https://www.orangetechcollege.net/UserFiles/Servers/Server_86919/Image/Partners/Lockheed.png" alt="" />
+		</div>
+		<div class="slide">
+			<img src="https://www.orangetechcollege.net/UserFiles/Servers/Server_86919/Image/Partners/MACF.png" alt="" />
+		</div>
+		<div class="slide">
+			<img src="https://www.orangetechcollege.net/UserFiles/Servers/Server_86919/Image/Partners/Marriott.png" alt="" />
+		</div>
+		<div class="slide">
+			<img src="https://www.orangetechcollege.net/UserFiles/Servers/Server_86919/Image/Partners/Mitsubishi.png" alt="" />
+		</div>
+		<div class="slide">
+			<img src="https://www.orangetechcollege.net/UserFiles/Servers/Server_86919/Image/Partners/NCS.png" alt="" />
+		</div>
+		<div class="slide">
+			<img src="https://www.orangetechcollege.net/UserFiles/Servers/Server_86919/Image/Partners/Northrop.png" alt="" />
+		</div>
+		<div class="slide">
+			<img src="https://www.orangetechcollege.net/UserFiles/Servers/Server_86919/Image/Partners/OrangeCountyFarmBureau.png" alt="" />
+		</div>
+		<div class="slide">
+			<img src="https://www.orangetechcollege.net/UserFiles/Servers/Server_86919/Image/Partners/OrlandoHealth.png" alt="" />
+		</div>
+		<div class="slide">
+			<img src="https://www.orangetechcollege.net/UserFiles/Servers/Server_86919/Image/Partners/ProImageSolutions.png" alt="" />
+		</div>
+		<div class="slide">
+			<img src="https://www.orangetechcollege.net/UserFiles/Servers/Server_86919/Image/Partners/PublicAllies.png" alt="" />
+		</div>
+		<div class="slide">
+			<img src="https://www.orangetechcollege.net/UserFiles/Servers/Server_86919/Image/Partners/SeaWorld.png" alt="" />
+		</div>
+		<div class="slide">
+			<img src="https://www.orangetechcollege.net/UserFiles/Servers/Server_86919/Image/Partners/SecondHarvest.png" alt="" />
+		</div>
+		<div class="slide">
+			<img src="https://www.orangetechcollege.net/UserFiles/Servers/Server_86919/Image/Partners/UF.png" alt="" />
+		</div>
+		<div class="slide">
+			<img src="https://www.orangetechcollege.net/UserFiles/Servers/Server_86919/Image/Partners/Universal.png" alt="" />
+		</div>   
+		<div class="slide">
+			<img src="https://www.orangetechcollege.net/UserFiles/Servers/Server_86919/Image/Partners/UP.png" alt="" />
+		</div>
+		<div class="slide">
+			<img src="https://www.orangetechcollege.net/UserFiles/Servers/Server_86919/Image/Partners/WaltDisney.png" alt="" />
+		</div>
+		<div class="slide">
+			<img src="https://www.orangetechcollege.net/UserFiles/Servers/Server_86919/Image/Partners/Wyndham.png" alt="" />
+		</div>
+	</div>
+</div>
+</div>
+
+
+
+
+<div class="container pourquoi mt-5 text-center">
+    <div class="propos-text">
+        <h3>RÉALISATIONS</h3>
+        <h1>Nos derniers projets</h1>
+    </div>
+
+
+	</main>
+{% endblock %}

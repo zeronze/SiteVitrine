@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+body {
+  background-color: #302f2f !important;
+}
+
+.categorie {
+  background-color: white;
+}
+
+.titre {
+  color: white;
+}
+
+.propos-text {
+  color: white;
+}
+
+.prestation {
+  background-image: url("../../images/banner.png");
+  background-size: cover;
+  height: 600px;
+  color: white; /* Text color */
+}
+
+/* Set the color for all nav items */
+.navbar-nav .nav-item a.nav-link {
+  margin-right: 50px;
+  font-weight: 500;
+  color: white !important;
+}
+
+/* Set the color for the phone icon */
+.navbar-nav .nav-item i {
+  color: #c47845;
+}
+
+/* Set the background color for the navbar */
+.navbar {
+  background-color: #302f2f !important;
+}
+
+/* Display dropdown menu on hover */
+.dropdown:hover > .dropdown-menu {
+  display: block;
+}
+
+/* Prevent sticky effect on active state */
+.dropdown > .dropdown-toggle:active {
+  pointer-events: none;
+}
+
+.container .card {
+  max-width: 300px;
+  height: 215px;
+  margin: 30px 10px;
+  padding: 20px 15px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+  transition: 0.3s ease-in-out;
+}
+
+.container .card:hover {
+  height: 450px;
+}
+
+.container .card .imgContainer {
+  position: relative;
+  width: 250px;
+  height: 250px;
+  top: -50px;
+  left: 10px;
+  z-index: 1;
+}
+
+.container .card .imgContainer img {
+  max-width: 100%;
+  border-radius: 4px;
+}
+
+.container .card .card-body {
+  position: relative;
+  margin-top: -140px;
+  padding: 10px 15px;
+  text-align: center;
+  color: #111;
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+  transition: 0.3s ease-in-out;
+}
+
+.container .card:hover .card-body {
+  visibility: visible;
+  opacity: 1;
+  margin-top: -40px;
+  transition-delay: 0.3s;
+}
+
+@media (max-width: 330px) {
+  .container .card .imgContainer {
+    left: -2px;
+  }
+}
+/* Sepia */
+.hover09 figure img {
+  filter: sepia(100%);
+  transition: 0.3s ease-in-out;
+  height: 300px;
+}
+
+.hover09 figure:hover img {
+  filter: sepia(0); /* IE 9 */ /* Safari 3-8 */
+  transform: scale(1.5);
+}
+
+/* Logo Slider */
+.logo-slider {
+  box-shadow: 0 0px 0px 0px rgba(0, 0, 0, 0.125);
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.logo-slider::before, .logo-slider::after {
+  content: "";
+  height: 175px;
+  position: absolute;
+  width: 200px;
+  z-index: 2;
+}
+
+.logo-slider::after {
+  right: 0;
+  top: 0;
+  transform: rotateZ(180deg);
+}
+
+.logo-slider::before {
+  left: 0;
+  top: 0;
+}
+
+.logo-slider .logo-slide-track {
+  animation: logo-scroll 60s linear infinite;
+  display: flex;
+  width: 3500px;
+  animation-duration: 30s;
+  animation-iteration-count: infinite;
+}
+
+.logo-slider .slide {
+  height: 150px;
+  width: 250px;
+  padding: 20px;
+}
+@keyframes logo-scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-1750px);
+  }
+}/*# sourceMappingURL=style.css.map */
