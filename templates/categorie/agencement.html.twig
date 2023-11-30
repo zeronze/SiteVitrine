@@ -1,0 +1,38 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Agencement{% endblock %}
+
+{% block stylesheets %}
+
+    <style>
+        .custom-margin-top {
+            margin-top: 8rem; /* ajustez la valeur selon vos besoins */
+        }
+     
+    </style>
+{% endblock %}
+
+{% block body %}
+<div class="container-fluid position-relative">
+    <img src="{{ asset('images/agencement2.jpg') }}" class=" card-img-top" alt="Agencement Image" style="width: 100%;">
+    <div class="position-absolute top-50 start-50 translate-middle">
+        <h1 class="text-white bg-black bg-opacity-50 p-5">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, laboriosam? Cumque
+        </h1>
+    </div>
+</div>
+
+    <div class="container custom-margin-top">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="{{ asset('images/agencement.jpg') }}" class="card-img-top" alt="Agencement Image">
+            </div>
+            <div class="col-md-6">
+                <h1 class="text-white">Agencement</h1>
+                <p class="text-white">
+                   L'agencement, dans un contexte général, se réfère à l'organisation et à la disposition harmonieuse des éléments au sein d'un espace. Cela peut s'appliquer à divers domaines, tels que l'agencement spatial d'une pièce ou d'un lieu, la disposition d'un site web, ou encore la planification d'événements. L'objectif de l'agencement est d'optimiser l'utilisation de l'espace disponible tout en créant une esthétique plaisante et fonctionnelle. Dans le contexte professionnel, l'agencement peut également faire référence à la conception et à l'aménagement de bureaux, de magasins ou d'autres environnements de travail pour maximiser l'efficacité opérationnelle et améliorer l'expérience des utilisateurs.
+                </p>
+            </div>
+        </div>
+    </div>
+{% endblock %}

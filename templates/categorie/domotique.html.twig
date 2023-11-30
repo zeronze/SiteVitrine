@@ -1,0 +1,45 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Domotique{% endblock %}
+
+{% block stylesheets %}
+
+    <style>
+        .custom-margin-top {
+            margin-top: 8rem; /* ajustez la valeur selon vos besoins */
+        }
+    </style>
+{% endblock %}
+
+{% block body %}
+   
+   <div class="container-fluid position-relative">
+    <img src="{{ asset('images/agencement2.jpg') }}" class=" card-img-top" alt="Agencement Image" style="width: 100%;">
+    <div class="position-absolute top-50 start-50 translate-middle">
+        <h1 class="text-white bg-black bg-opacity-50 p-5">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, laboriosam? Cumque
+        </h1>
+    </div>
+</div>
+
+<div class="container mt-5">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="{{ asset('images/domotique.jpg') }}" class="card-img-top" alt="domotique Image">
+            </div>
+            <div class="col-md-6">
+                <h1 class="text-white">domotique</h1>
+                <p class="text-white">
+                
+La domotique, contraction des termes "domus" (maison en latin) et "informatique", désigne l'ensemble des technologies et des systèmes visant à automatiser et à faciliter la gestion des tâches au sein d'une maison ou d'un bâtiment. Cette discipline englobe un large éventail de fonctionnalités, allant du contrôle automatisé de l'éclairage, du chauffage, de la ventilation et de la climatisation (CVC) à la gestion des dispositifs de sécurité, des appareils électroménagers, et même à la surveillance à distance.
+
+Les systèmes domotiques modernes utilisent des capteurs, des actionneurs, des réseaux sans fil, et des interfaces utilisateur intuitives pour permettre aux résidents de contrôler et de surveiller leur environnement domestique à partir de smartphones, de tablettes ou d'autres dispositifs connectés. L'objectif principal de la domotique est d'optimiser le confort, la sécurité, l'efficacité énergétique et la gestion des ressources au sein du foyer.
+
+Les avantages de la domotique incluent la possibilité de personnaliser les paramètres en fonction des préférences individuelles, la réduction de la consommation énergétique, l'amélioration de la sécurité grâce à des systèmes d'alarme et de surveillance sophistiqués, ainsi que la possibilité de contrôler à distance les appareils et les systèmes domestiques.
+
+Cependant, la mise en œuvre réussie de la domotique nécessite une planification minutieuse, une intégration cohérente des dispositifs, ainsi qu'une sécurité robuste pour protéger les informations sensibles. Malgré ces défis, la domotique continue d'évoluer rapidement, offrant des solutions innovantes pour rendre les maisons et les bâtiments plus intelligents, plus efficients et plus conviviaux.
+                </p>
+            </div>
+        </div>
+    </div>
+{% endblock %}

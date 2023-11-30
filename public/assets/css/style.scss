@@ -14,6 +14,16 @@ body{
     color: white;
 }
 
+h1{
+	color: #ce916f !important; 
+}
+
+
+*{
+	text-decoration: none !important;
+	list-style: none !important;
+  }
+  
 
 
 /* Set the color for all nav items */
@@ -101,6 +111,17 @@ body{
     }
 }
 
+/* Blur */
+.hover07 figure img {
+	-webkit-filter: blur(3px);
+	filter: blur(3px);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hover07 figure:hover img {
+	-webkit-filter: blur(0);
+	filter: blur(0);
+}
 
 
 /* Sepia */

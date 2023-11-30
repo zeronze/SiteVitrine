@@ -1,0 +1,37 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Isolation{% endblock %}
+
+{% block stylesheets %}
+
+    <style>
+        .custom-margin-top {
+            margin-top: 8rem; /* ajustez la valeur selon vos besoins */
+        }
+    </style>
+{% endblock %}
+
+{% block body %}
+  <div class="container-fluid position-relative">
+    <img src="{{ asset('images/agencement2.jpg') }}" class=" card-img-top" alt="Agencement Image" style="width: 100%;">
+    <div class="position-absolute top-50 start-50 translate-middle">
+        <h1 class="text-white bg-black bg-opacity-50 p-5">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, laboriosam? Cumque
+        </h1>
+    </div>
+</div>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="{{ asset('images/isolation.png') }}" class="card-img-top" alt="Isolation Image">
+            </div>
+            <div class="col-md-6">
+                <h1 class="text-white">Isolation</h1>
+                <p class="text-white">
+                
+L'isolation désigne le processus ou l'état de séparation, de mise à l'écart ou de protection d'un objet, d'un individu ou d'un système. Ce concept s'applique à divers domaines tels que la physique, l'ingénierie, la psychologie, la sociologie et la médecine. En physique, l'isolation thermique vise à réduire les transferts de chaleur, tandis qu'en électricité, l'isolation électrique empêche la conduction électrique indésirable. Dans un contexte plus social, l'isolation peut désigner la mise à l'écart d'un individu du reste de la société, pouvant avoir des implications psychologiques et émotionnelles. En médecine, l'isolement peut être appliqué pour protéger les patients ou empêcher la propagation de maladies contagieuses. Dans l'ensemble, l'isolation représente un moyen de contrôle, de protection ou de préservation, adapté aux exigences spécifiques de chaque contexte.
+                </p>
+            </div>
+        </div>
+    </div>
+{% endblock %}

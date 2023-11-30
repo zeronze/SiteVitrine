@@ -1,0 +1,37 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Menuiserie{% endblock %}
+
+{% block stylesheets %}
+
+    <style>
+        .custom-margin-top {
+            margin-top: 8rem; /* ajustez la valeur selon vos besoins */
+        }
+    </style>
+{% endblock %}
+
+{% block body %}
+   <div class="container-fluid position-relative">
+    <img src="{{ asset('images/agencement2.jpg') }}" class=" card-img-top" alt="Agencement Image" style="width: 100%;">
+    <div class="position-absolute top-50 start-50 translate-middle">
+        <h1 class="text-white bg-black bg-opacity-50 p-5">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, laboriosam? Cumque
+        </h1>
+    </div>
+</div>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="{{ asset('images/menuiserie.jpg') }}" class="card-img-top" alt="menuiserie Image">
+            </div>
+            <div class="col-md-6">
+                <h1 class="text-white">menuiserie</h1>
+                <p class="text-white">
+                
+La menuiserie est un métier et un artisanat spécialisé dans la conception, la fabrication et l'installation d'éléments en bois destinés à la construction et à l'aménagement. Les menuisiers travaillent avec une variété de bois et de matériaux dérivés, utilisant des compétences traditionnelles et modernes pour créer des pièces sur mesure telles que portes, fenêtres, meubles et éléments architecturaux. Ils maîtrisent également l'utilisation d'outils spécialisés pour façonner, assembler et finir les pièces de bois. La menuiserie est essentielle dans la construction résidentielle et commerciale, contribuant à la fonctionnalité et à l'esthétique des espaces de vie et de travail. L'évolution technologique a introduit de nouvelles techniques et matériaux, mais la menuiserie demeure un métier qui marie habileté artisanale et créativité pour créer des éléments durables et esthétiquement agréables.
+                </p>
+            </div>
+        </div>
+    </div>
+{% endblock %}

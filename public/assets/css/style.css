@@ -15,6 +15,15 @@ body {
   color: white;
 }
 
+h1 {
+  color: #ce916f !important;
+}
+
+* {
+  text-decoration: none !important;
+  list-style: none !important;
+}
+
 /* Set the color for all nav items */
 .navbar-nav .nav-item a.nav-link {
   margin-right: 50px;
@@ -93,6 +102,16 @@ body {
     left: -2px;
   }
 }
+/* Blur */
+.hover07 figure img {
+  filter: blur(3px);
+  transition: 0.3s ease-in-out;
+}
+
+.hover07 figure:hover img {
+  filter: blur(0);
+}
+
 /* Sepia */
 .hover09 figure img {
   filter: sepia(100%);
